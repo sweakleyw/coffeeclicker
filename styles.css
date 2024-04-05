@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 25%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#resources-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#resources-container #game {
+  padding-bottom: 10px;
+}
+
+#resources-container #rate-of {
+  padding-bottom: 10px;
+}
+
+#producers-container {
+  margin: 10px 50px 10px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 0 0 3px black;
+  background: url(pexels-valeriia-miller-3020919.jpg) no-repeat center center/
+    cover;
+}
+
+#producers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.producer {
+  margin: 10px;
+  padding: 10px;
+  line-height: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  background-color: rgba(255, 228, 196, 0.822);
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  float: right;
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: goldenrod;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#producers-header {
+  color: #fff;
+  text-shadow: 0 0 7px #000;
+}
+
+/* #producers-container {
+  margin: 10px;
+  padding: 10px;
+  line-height: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 0 3px black;
+  background-color: rgba(211, 82, 82, 0.87);
+} */
+
+#mug {
+  margin: 15px;
+  padding-top: 10px;
+  height: 300px;
+  width: auto;
+  cursor: pointer;
+}
